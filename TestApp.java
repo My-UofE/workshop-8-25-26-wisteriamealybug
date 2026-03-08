@@ -5,5 +5,11 @@ public class TestApp {
         m1.moveLeft();
         m1.moveDown();
         System.out.println(m1);
+
+        MovableCircle m2 = new MovableCircle(1, 2, 3, 4, 20);
+        System.out.println(m2);
+        m2.moveRight();
+        m2.moveUp();
+        System.out.println(m2);
     }
 }
