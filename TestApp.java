@@ -11,5 +11,14 @@ public class TestApp {
         m2.moveRight();
         m2.moveUp();
         System.out.println(m2);
+        System.out.printf("Area:%.3f, Perimeter:%.3f%n", m2.area(), m2.perimeter());
+
+        Shape m3 = new MovableCircle(0, 0, 5, 5, 20); // upcast
+        System.out.println(m3);
+        m3.moveRight();
+        m3.moveUp();
+        System.out.println(m3);
+        System.out.printf("Area:%.3f, Perimeter:%.3f%n", m3.area(), m3.perimeter());
+
     }
 }
