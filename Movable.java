@@ -1,10 +1,10 @@
 public interface Movable {
-	void moveUp();  
-	void moveDown();
+    void moveUp();
 
-	// TASK: Add the additional interface methods below
+    void moveDown();
 
+    // TASK: Add the additional interface methods below
+    void moveLeft();
 
-
-	
+    void moveRight();
 }
